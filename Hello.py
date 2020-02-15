@@ -1,7 +1,0 @@
-print('Hello world!')
-print('Python')
-print('Modified')
-print(2)
-print(1)
-print('rebase')
-print('rabase2')
