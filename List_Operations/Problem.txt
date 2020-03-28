@@ -1,0 +1,51 @@
+
+
+Description: Write a Python 3 program that creates, manipulates, and displays the contents of lists based on provided requirements.
+
+Purpose: The purpose of this challenge is to provide experience working with lists in Python including creating, sorting, reversing, appending, and iterating through lists.
+
+Requirements:
+
+Write a program called lists1.py that meets the following requirements.
+
+Write a function named display_list that receives a string label and a list of items. display_list is to print the label and then use for-in to iterate through the list and print each item in the list of items.
+
+Create a list of strings containing the following list of foods and assign it to the variable foods: pizza, salad, hamburger, steak, apple, and orange.
+
+Call display_list with “foods in original order:” as the label and foods as the list. Example code: display_list("foods in original order:", foods)
+
+Do an in-place sort of the foods list in ascending alphabetical order. An in-place sort is sorting the original list rather than making a sorted copy of the list.
+
+Call display_list with “foods in ascending alphabetical order:” as the label and foods as the list.
+
+Do an in-place sort of the foods list in descending alphabetical order.
+
+Call display_list with “foods in descending alphabetical order:” as the label and foods as the list.
+
+Create a sorted copy of the foods list and assign it to the variable foods2. The sorted copy is to be in ascending alphabetical order.
+
+Call display_list with “foods2 in ascending alphabetical order:” as the label and foods2 as the list.
+
+Call display_list with “foods still in descending alphabetical order:” as the label and foods as the list. This is to show that the creation of the sorted copy in foods2 did not change foods.
+
+Use the reverse() method on the foods list to reverse the order of the items in foods.
+
+Call display_list with “foods in ascending alphabetical order:” as the label and foods as the list.
+
+Use the append() method on the foods list to add two new foods: carrots and milk.
+
+Call display_list with “sorted foods with carrots and milk appended to end:” as the label and foods as the list.
+
+Do an in-place sort of the foods list in ascending alphabetical order.
+
+Call display_list with “foods in ascending alphabetical order:” as the label and foods as the list.
+
+Using a list method, find the index of “pizza” in the foods list. The index is the position of the item in the list with the first item being at index of 0. Assign the index to the variable pizza_index.
+
+Print “Pizza is at” followed by the value of pizza_index.
+
+Using the list insert() method, insert “fries” at the position specified in pizza_index.
+
+Find the index of “pizza” in the foods list again using a list method.
+
+Print “Pizza is now at” followed by the value of pizza_index.
