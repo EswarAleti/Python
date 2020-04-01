@@ -1,0 +1,15 @@
+
+
+You may need to know:
+
+Magic squares are divided into three major categories depending upon order of square.
+1) Odd order Magic Square. Example: 3,5,7,… (2*n +1)
+2) Doubly-even order Magic Square. Example : 4,8,12,16,.. (4*n)
+3) Singly-even order Magic Square. Example : 6,10,14,18,..(4*n +2)
+
+Please finish this in Python:
+
+Thank you so much!
+
+    Write a method magic_square(n) inside a class named magic which will generate a magic square of dimensions n x n.
+
