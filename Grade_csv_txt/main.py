@@ -31,4 +31,4 @@ if __name__ == '__main__':
 
 	#for each student call finalGrade() and print the result
 	for i in range(len(names)):
-		print(names[i],' ',round(finalGrade(scores[i]),2))
+		print(names[i],' earned ',round(finalGrade(scores[i]),2),'\b%')
