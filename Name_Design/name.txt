@@ -1,0 +1,40 @@
+pppppppppppp
+ppppppppppppp
+pppp       ppp 
+pppp       ppp
+ppppppppppppp
+pppppppppppp
+pppp
+pppp
+pppp
+
+rrrrrrrrrrrr
+rrrrrrrrrrrrr
+rrrr       rrr 
+rrrr       rrr
+rrrrrrrrrrrrr
+rrrrrrrrrrrr
+rrrrrrrr
+rrrr  rrrr
+rrrr    rrrr
+rrrr      rrrr
+
+IIIIIIIIIIIIII
+IIIIIIIIIIIIII
+     IIII
+     IIII
+     IIII
+     IIII
+     IIII     
+IIIIIIIIIIIIII
+IIIIIIIIIIIIII
+
+      aaa
+     aaaaa
+   aaa   aaa
+  aaaa   aaaa
+ aaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaa     aaaaa
+aaaaa     aaaaa
+aaaaa     aaaaa
