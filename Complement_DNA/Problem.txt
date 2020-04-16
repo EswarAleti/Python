@@ -1,0 +1,25 @@
+
+
+Use Python
+
+From the previous project you know how to generate a random 8-letter DNA fragment. Now you will generate its complement. However, we will do this for a 4-letter fragment, You can do this easily (conceptually anyway) because you know that :
+
+A pairs with T; C pairs with G; T pairs with A and C pairs with C as shown in the picture below.
+
+For this project do the following:
+
+In the same program
+
+    Generate a random 4-letter DNA fragment. We will call it the original.
+    Print the letters of the fragment
+    Keep randomly generating fragments until one is generated that is the complement of the original
+    Count how many times a random fragment was generated until the random generation of fragments resulted in generating the complement of the original fragment.
+    Print the letters of this complement
+    Print the number of times it took to generate random fragments before the right one, i.e. the complement to the first randomly generated fragment was generated.
+
+Make sure the outputs (what is printed) are clearly identified as follows:
+
+    Original
+    Complement
+    Count
+
