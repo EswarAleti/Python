@@ -1,0 +1,65 @@
+Write a program to determine the length of bursts of zero’s in a list of N numbers stored in an List. The program should record the length of the bursts of zero’s in another List. The program should then print the lengths of the bursts.
+
+Using this second List with the lengths of the bursts, it should also compute and print the following: the average length of the bursts, the minimum burst length, the maximum burst length, and the total number of zeros (the sum of the burst lengths).
+Your program should:
+
+1. Prompt the user for the size of the list (N). Then it should prompt the user to enter N numbers and store them into an list called burstList. Note, you should specify the maximum size of N allowed (based on how large you declare your List).
+
+
+2. Given N and list, your program should compute the lengths of the bursts of zeros and store them in an list called BurstLengths. Use a for loop in this step.
+
+
+3. Given the BurstLengths List , use a while loop to print the list of burst lengths. Format this nicely in a table with headings.
+
+4. Given the BurstLengths List , compute and then print the following information:
+a. Average burst length
+b. Minimum burst length
+c. Maximum burst length
+d. Total number of zeros
+
+Example data and results:
+
+N (entered by the user and stored in N): 15
+
+List of numbers (entered by the user and stored in list):
+
+1, 0, 0, 0, 0, 3, 7, 0, 0, 0, 0, 0, 0, 50, 0
+
+List of bursts (computed by your program and stored in BurstList): 4, 6, 1
+
+Average burst length (computed by your program): 3.67
+
+Minimum burst length (computed by your program): 1
+
+Maximum burst length (computed by your program): 6
+
+Total number of zeros (computed by your program): 11
+
+Results:
+
+Burst Length
+
+1 4
+
+2 6
+
+3 1
+
+Average burst length: 3.67
+
+Minimum burst length: 1
+
+Maximum burst length: 6
+
+Total number of zeros: 11
+
+Hints:
+
+• Check the boundaries (beginning and end of the lists). Test your program with a list of numbers that ends with a 0 and another that doesn’t end with a 0 and make sure your program works properly. Similarly, test it with lists that start with a 0 and those that don’t.
+
+• Use a flag variable (such as burst_open) to keep track of whether you are in the middle of a burst or not. When you encounter a burst (the first 0 in a burst) you can set the burst_open variable to 1. When you encounter the end of a burst, you can set the burst_open variable to 0.
+
+• Develop your program in parts. You can develop and test the code for the different steps separately.
+
+Note that you can create your own BurstList to test if the code for steps 3 and 4 work
+before completing step 2. In the end, you should have one program that contains all steps.
